@@ -1,0 +1,16 @@
+package xom.kbg.SeanTutorials.item;
+
+import javafx.scene.control.Tab;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class TutorialItem extends Item{{
+
+//Sets texture (Can use custom textures eventually with a directory	
+this.setTextureName("Blaze_rod");
+
+//Sets creative tab
+this.setCreativeTab(CreativeTabs.tabMisc);
+}
+}
+
