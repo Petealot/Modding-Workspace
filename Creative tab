@@ -1,0 +1,10 @@
+
+//Create the tab
+public static CreativeTabs tabTutorialTab = new CreativeTabs("tabTutorialTab"){
+    
+    //Set the item used a symbol for the tab.
+		@Override
+		public Item getTabIconItem() {
+			return new ItemStack(Blocks.dirt).getItem();
+		}
+	};
